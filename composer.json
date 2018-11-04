@@ -1,0 +1,40 @@
+{
+    "name": "kinoli/hack-job",
+    "description": "Used to reduce the template data. Useful for outputting to json.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "hack job"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jesse Knowles",
+            "homepage": "http://www.jesseknowles.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "kinoli\\hackjob\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Hack Job",
+        "handle": "hack-job",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "class": "kinoli\\hackjob\\HackJob"
+    }
+}
