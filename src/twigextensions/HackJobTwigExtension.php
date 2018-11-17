@@ -83,7 +83,7 @@ class HackJobTwigExtension extends \Twig_Extension
 		}
 		if ( ! is_array($input)) {
 			throw new Exception(Craft::t('Content passed is not an array.'));
-        }
+		}
 		$this->input = $input;
 		$this->fields = $fields;
 		$output = array();
